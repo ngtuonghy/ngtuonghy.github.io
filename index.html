@@ -1,1976 +1,1829 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lich Thi</title>
-  </head>
-  <body>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link
-      type="text/css"
-      rel="stylesheet"
-      href="resources/sheet.css"
-    />
-    <style type="text/css">
-      .ritz .waffle a {
-        color: inherit;
-      }
-      .ritz .waffle .s8 {
-        border-bottom: 4px DOUBLE #000000;
-        border-right: 1px SOLID transparent;
-        background-color: #ffffff;
-        text-align: left;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 14pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s3 {
-        border-bottom: 1px SOLID transparent;
-        border-right: 1px SOLID transparent;
-        background-color: #ffffff;
-        text-align: left;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 14pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s1 {
-        border-bottom: 1px SOLID transparent;
-        border-right: 1px SOLID transparent;
-        background-color: #ffffff;
-        text-align: left;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 14pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s35 {
-        background-color: #ffffff;
-        text-align: left;
-        color: #000000;
-        font-family: "docs-Calibri", Arial;
-        font-size: 11pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s15 {
-        background-color: #ffffff;
-        text-align: center;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s7 {
-        border-bottom: 3px DOUBLE #000000;
-        border-right: 1px SOLID transparent;
-        background-color: #ffffff;
-        text-align: center;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 16pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s14 {
-        border-bottom: 1px SOLID #000000;
-        border-right: 1px SOLID #000000;
-        background-color: #ffffff;
-        text-align: center;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s31 {
-        border-right: none;
-        background-color: #ffffff;
-        text-align: left;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s28 {
-        background-color: #ffffff;
-        text-align: center;
-        font-style: italic;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s33 {
-        border-left: none;
-        background-color: #ffffff;
-        text-align: center;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s4 {
-        border-bottom: 1px SOLID transparent;
-        border-right: 1px SOLID transparent;
-        background-color: #ffffff;
-        text-align: center;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 14pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s18 {
-        background-color: #ffffff;
-        text-align: left;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s11 {
-        border-bottom: 1px SOLID #000000;
-        border-right: 2px SOLID #000000;
-        background-color: #ffffff;
-        text-align: center;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s13 {
-        border-bottom: 1px SOLID #000000;
-        border-right: 1px SOLID #000000;
-        background-color: #ffffff;
-        text-align: center;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s19 {
-        border-right: none;
-        background-color: #ffffff;
-        text-align: left;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s20 {
-        border-left: none;
-        background-color: #ffffff;
-        text-align: left;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s36 {
-        background-color: #ffffff;
-        text-align: left;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s40 {
-        border-right: none;
-        background-color: #ffffff;
-        text-align: left;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s34 {
-        border-left: none;
-        background-color: #ffffff;
-      }
-      .ritz .waffle .s39 {
-        border-left: none;
-        border-right: none;
-        background-color: #ffffff;
-        text-align: left;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s23 {
-        background-color: #ffffff;
-        text-align: left;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s32 {
-        border-left: none;
-        border-right: none;
-        background-color: #ffffff;
-        text-align: center;
-        font-style: italic;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s37 {
-        background-color: #ffffff;
-        text-align: left;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s5 {
-        border-bottom: 3px DOUBLE #000000;
-        border-right: 1px SOLID transparent;
-        background-color: #ffffff;
-        text-align: center;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s10 {
-        border-bottom: 1px SOLID #000000;
-        border-right: 1px SOLID #000000;
-        background-color: #ffffff;
-        text-align: center;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s16 {
-        background-color: #ffffff;
-        text-align: center;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s29 {
-        border-left: none;
-        border-right: none;
-        background-color: #ffffff;
-        text-align: left;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s25 {
-        border-right: none;
-        background-color: #ffffff;
-        text-align: left;
-        color: #ff0000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s0 {
-        border-bottom: 1px SOLID transparent;
-        border-right: 1px SOLID transparent;
-        background-color: #ffffff;
-        text-align: center;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s9 {
-        border-bottom: 1px SOLID #000000;
-        border-right: 1px SOLID #000000;
-        background-color: #ffffff;
-        text-align: center;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s17 {
-        background-color: #ffffff;
-        text-align: center;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s12 {
-        background-color: #ffffff;
-        text-align: left;
-        color: #000000;
-        font-family: "docs-Calibri", Arial;
-        font-size: 11pt;
-        vertical-align: bottom;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s22 {
-        background-color: #ffffff;
-        text-align: center;
-        color: #000000;
-        font-family: "docs-Calibri", Arial;
-        font-size: 11pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s21 {
-        border-left: none;
-        background-color: #ffffff;
-        text-align: center;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s27 {
-        border-left: none;
-        background-color: #ffffff;
-        text-align: center;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s30 {
-        border-left: none;
-        background-color: #ffffff;
-        text-align: left;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s26 {
-        border-left: none;
-        border-right: none;
-        background-color: #ffffff;
-        text-align: center;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s24 {
-        background-color: #ffffff;
-        text-align: left;
-        color: #ff0000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s38 {
-        border-left: none;
-        border-right: none;
-        background-color: #ffffff;
-        text-align: center;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 12pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s2 {
-        border-bottom: 1px SOLID transparent;
-        border-right: 1px SOLID transparent;
-        background-color: #ffffff;
-        text-align: center;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 14pt;
-        vertical-align: middle;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      .ritz .waffle .s6 {
-        border-bottom: 3px DOUBLE #000000;
-        border-right: 1px SOLID transparent;
-        background-color: #ffffff;
-        text-align: left;
-        font-weight: bold;
-        color: #000000;
-        font-family: "Times New Roman";
-        font-size: 14pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 0px 3px 0px 3px;
-      }
-      #time {
-        background: royalblue;
-        color: #fff;
-        font-size: 50px;
-        font-weight: bold;
-        text-align: center;
-        width: 500px;
-        margin: 30px auto;
-        border-radius: 15px;
-      }
-      .cc {
-        font-weight: bold;
-        padding-bottom: 50px;
-        text-align: left;
-      }
-    </style>
-    <div id="time"></div>
-    <div class="cc">by Nguyễn Tường Hy</div>
-    <script>
-      function Clock() {
-        var today = new Date();
-        var month = today.getMonth() + 1;
-        var days = today.getDate();
-        var year = today.getFullYear();
-        var hours = today.getHours();
-        var minutes = today.getMinutes();
-        var seconds = today.getSeconds();
-        if (minutes < 10) {
-          minutes = "0" + minutes;
-        }
-        if (hours < 10) {
-          hours = "0" + hours;
-        }
 
-        if (seconds < 10) {
-          seconds = "0" + seconds;
-        }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lich Thi</title>
+</head>
 
-        document.getElementById("time").innerHTML =
-          month +
-          "/" +
-          days +
-          "/" +
-          year +
-          "  " +
-          hours +
-          ":" +
-          minutes +
-          ":" +
-          seconds;
-        setTimeout("Clock()", 1000);
+<body>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link type="text/css" rel="stylesheet" href="resources/sheet.css" />
+  <style type="text/css">
+    .ritz .waffle a {
+      color: inherit;
+    }
+
+    .ritz .waffle .s8 {
+      border-bottom: 4px DOUBLE #000000;
+      border-right: 1px SOLID transparent;
+      background-color: #ffffff;
+      text-align: left;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 14pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s3 {
+      border-bottom: 1px SOLID transparent;
+      border-right: 1px SOLID transparent;
+      background-color: #ffffff;
+      text-align: left;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 14pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s1 {
+      border-bottom: 1px SOLID transparent;
+      border-right: 1px SOLID transparent;
+      background-color: #ffffff;
+      text-align: left;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 14pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s35 {
+      background-color: #ffffff;
+      text-align: left;
+      color: #000000;
+      font-family: "docs-Calibri", Arial;
+      font-size: 11pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s15 {
+      background-color: #ffffff;
+      text-align: center;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s7 {
+      border-bottom: 3px DOUBLE #000000;
+      border-right: 1px SOLID transparent;
+      background-color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 16pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s14 {
+      border-bottom: 1px SOLID #000000;
+      border-right: 1px SOLID #000000;
+      background-color: #ffffff;
+      text-align: center;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s31 {
+      border-right: none;
+      background-color: #ffffff;
+      text-align: left;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s28 {
+      background-color: #ffffff;
+      text-align: center;
+      font-style: italic;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s33 {
+      border-left: none;
+      background-color: #ffffff;
+      text-align: center;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s4 {
+      border-bottom: 1px SOLID transparent;
+      border-right: 1px SOLID transparent;
+      background-color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 14pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s18 {
+      background-color: #ffffff;
+      text-align: left;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s11 {
+      border-bottom: 1px SOLID #000000;
+      border-right: 2px SOLID #000000;
+      background-color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s13 {
+      border-bottom: 1px SOLID #000000;
+      border-right: 1px SOLID #000000;
+      background-color: #ffffff;
+      text-align: center;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s19 {
+      border-right: none;
+      background-color: #ffffff;
+      text-align: left;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s20 {
+      border-left: none;
+      background-color: #ffffff;
+      text-align: left;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s36 {
+      background-color: #ffffff;
+      text-align: left;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s40 {
+      border-right: none;
+      background-color: #ffffff;
+      text-align: left;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s34 {
+      border-left: none;
+      background-color: #ffffff;
+    }
+
+    .ritz .waffle .s39 {
+      border-left: none;
+      border-right: none;
+      background-color: #ffffff;
+      text-align: left;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s23 {
+      background-color: #ffffff;
+      text-align: left;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s32 {
+      border-left: none;
+      border-right: none;
+      background-color: #ffffff;
+      text-align: center;
+      font-style: italic;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s37 {
+      background-color: #ffffff;
+      text-align: left;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s5 {
+      border-bottom: 3px DOUBLE #000000;
+      border-right: 1px SOLID transparent;
+      background-color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s10 {
+      border-bottom: 1px SOLID #000000;
+      border-right: 1px SOLID #000000;
+      background-color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s16 {
+      background-color: #ffffff;
+      text-align: center;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s29 {
+      border-left: none;
+      border-right: none;
+      background-color: #ffffff;
+      text-align: left;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s25 {
+      border-right: none;
+      background-color: #ffffff;
+      text-align: left;
+      color: #ff0000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s0 {
+      border-bottom: 1px SOLID transparent;
+      border-right: 1px SOLID transparent;
+      background-color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s9 {
+      border-bottom: 1px SOLID #000000;
+      border-right: 1px SOLID #000000;
+      background-color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s17 {
+      background-color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s12 {
+      background-color: #ffffff;
+      text-align: left;
+      color: #000000;
+      font-family: "docs-Calibri", Arial;
+      font-size: 11pt;
+      vertical-align: bottom;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s22 {
+      background-color: #ffffff;
+      text-align: center;
+      color: #000000;
+      font-family: "docs-Calibri", Arial;
+      font-size: 11pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s21 {
+      border-left: none;
+      background-color: #ffffff;
+      text-align: center;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s27 {
+      border-left: none;
+      background-color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s30 {
+      border-left: none;
+      background-color: #ffffff;
+      text-align: left;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s26 {
+      border-left: none;
+      border-right: none;
+      background-color: #ffffff;
+      text-align: center;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s24 {
+      background-color: #ffffff;
+      text-align: left;
+      color: #ff0000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s38 {
+      border-left: none;
+      border-right: none;
+      background-color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 12pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s2 {
+      border-bottom: 1px SOLID transparent;
+      border-right: 1px SOLID transparent;
+      background-color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 14pt;
+      vertical-align: middle;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    .ritz .waffle .s6 {
+      border-bottom: 3px DOUBLE #000000;
+      border-right: 1px SOLID transparent;
+      background-color: #ffffff;
+      text-align: left;
+      font-weight: bold;
+      color: #000000;
+      font-family: "Times New Roman";
+      font-size: 14pt;
+      vertical-align: middle;
+      white-space: normal;
+      overflow: hidden;
+      word-wrap: break-word;
+      direction: ltr;
+      padding: 0px 3px 0px 3px;
+    }
+
+    #time {
+      background: royalblue;
+      color: #fff;
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center;
+      width: 500px;
+      margin: 30px auto;
+      border-radius: 15px;
+    }
+
+    .text {
+      font-weight: bold;
+      width: 220px;
+      height: 100%;
+      margin-top: 50px;
+      animation-name: run;
+      position: relative;
+      animation: run 10s linear 2s infinite alternate;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    @keyframes run {
+      0% {
+        background-color: #FF78C4;
+        left: 0px;
+        top: 0px;
       }
-      Clock();
-    </script>
 
-    <div class="ritz grid-container" dir="ltr">
-      <table class="waffle" cellspacing="0" cellpadding="0">
-        <thead>
-          <tr>
-            <th class="row-header freezebar-origin-ltr"></th>
-            <th
-              id="117478466C0"
-              style="width: 37px"
-              class="column-headers-background"
-            >
-              A
-            </th>
-            <th
-              id="117478466C1"
-              style="width: 35px"
-              class="column-headers-background"
-            >
-              B
-            </th>
-            <th
-              id="117478466C2"
-              style="width: 88px"
-              class="column-headers-background"
-            >
-              C
-            </th>
-            <th
-              id="117478466C3"
-              style="width: 48px"
-              class="column-headers-background"
-            >
-              D
-            </th>
-            <th
-              id="117478466C4"
-              style="width: 101px"
-              class="column-headers-background"
-            >
-              E
-            </th>
-            <th
-              id="117478466C5"
-              style="width: 43px"
-              class="column-headers-background"
-            >
-              F
-            </th>
-            <th
-              id="117478466C6"
-              style="width: 97px"
-              class="column-headers-background"
-            >
-              G
-            </th>
-            <th
-              id="117478466C7"
-              style="width: 208px"
-              class="column-headers-background"
-            >
-              H
-            </th>
-            <th
-              id="117478466C8"
-              style="width: 239px"
-              class="column-headers-background"
-            >
-              I
-            </th>
-            <th
-              id="117478466C9"
-              style="width: 262px"
-              class="column-headers-background"
-            >
-              J
-            </th>
-            <th
-              id="117478466C10"
-              style="width: 35px"
-              class="column-headers-background"
-            >
-              K
-            </th>
-            <th
-              id="117478466C11"
-              style="width: 34px"
-              class="column-headers-background"
-            >
-              L
-            </th>
-            <th
-              id="117478466C12"
-              style="width: 47px"
-              class="column-headers-background"
-            >
-              M
-            </th>
-            <th
-              id="117478466C13"
-              style="width: 308px"
-              class="column-headers-background"
-            >
-              N
-            </th>
-            <th
-              id="117478466C14"
-              style="width: 165px"
-              class="column-headers-background"
-            >
-              O
-            </th>
-            <th
-              id="117478466C15"
-              style="width: 152px"
-              class="column-headers-background"
-            >
-              P
-            </th>
-            <th
-              id="117478466C16"
-              style="width: 130px"
-              class="column-headers-background"
-            >
-              Q
-            </th>
-            <th
-              id="117478466C17"
-              style="width: 60px"
-              class="column-headers-background"
-            >
-              R
-            </th>
-            <th
-              id="117478466C18"
-              style="width: 60px"
-              class="column-headers-background"
-            >
-              S
-            </th>
-            <th
-              id="117478466C19"
-              style="width: 60px"
-              class="column-headers-background"
-            >
-              T
-            </th>
-            <th
-              id="117478466C20"
-              style="width: 60px"
-              class="column-headers-background"
-            >
-              U
-            </th>
-            <th
-              id="117478466C21"
-              style="width: 60px"
-              class="column-headers-background"
-            >
-              V
-            </th>
-            <th
-              id="117478466C22"
-              style="width: 60px"
-              class="column-headers-background"
-            >
-              W
-            </th>
-            <th
-              id="117478466C23"
-              style="width: 60px"
-              class="column-headers-background"
-            >
-              X
-            </th>
-            <th
-              id="117478466C24"
-              style="width: 60px"
-              class="column-headers-background"
-            >
-              Y
-            </th>
-            <th
-              id="117478466C25"
-              style="width: 60px"
-              class="column-headers-background"
-            >
-              Z
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr style="height: 33px">
-            <th
-              id="117478466R0"
-              style="height: 33px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 33px">1</div>
-            </th>
-            <td class="s0" colspan="6">TRƯỜNG ĐẠI HỌC DUY TÂN</td>
-            <td class="s1"></td>
-            <td class="s2" colspan="9">NĂM HỌC 2022-2023</td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-          </tr>
-          <tr style="height: 38px">
-            <th
-              id="117478466R1"
-              style="height: 38px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 38px">2</div>
-            </th>
-            <td class="s0" colspan="6">PHÒNG ĐÀO TẠO</td>
-            <td class="s1"></td>
-            <td class="s4" colspan="9">
-              LỊCH THI<span
-                style="
+      25% {
+        background-color: #E1AEFF;
+        left: 100%;
+        top: 0px;
+      }
+
+      50% {
+        background-color: #FFBDF7;
+        left: 100%;
+        top: 0px;
+      }
+
+      75% {
+        background-color: #FFECEC;
+        left: 0px;
+        top: 0px;
+      }
+
+      100% {
+        background-color: #FF8551;
+        left: 0px;
+        top: 0px;
+      }
+    }
+  </style>
+  <div id="time"></div>
+  <div class="text">
+    <h2>by Nguyễn Tường Hy</h2>
+  </div>
+  <script>
+    function Clock() {
+      var today = new Date();
+      var month = today.getMonth() + 1;
+      var days = today.getDate();
+      var year = today.getFullYear();
+      var hours = today.getHours();
+      var minutes = today.getMinutes();
+      var seconds = today.getSeconds();
+      if (minutes < 10) {
+        minutes = "0" + minutes;
+      }
+      if (hours < 10) {
+        hours = "0" + hours;
+      }
+
+      if (seconds < 10) {
+        seconds = "0" + seconds;
+      }
+
+      document.getElementById("time").innerHTML =
+        month +
+        "/" +
+        days +
+        "/" +
+        year +
+        "  " +
+        hours +
+        ":" +
+        minutes +
+        ":" +
+        seconds;
+      setTimeout("Clock()", 1000);
+    }
+    Clock();
+  </script>
+
+  <div class="ritz grid-container" dir="ltr">
+    <table class="waffle" cellspacing="0" cellpadding="0">
+      <thead>
+        <tr>
+          <th class="row-header freezebar-origin-ltr"></th>
+          <th id="117478466C0" style="width: 37px" class="column-headers-background">
+            A
+          </th>
+          <th id="117478466C1" style="width: 35px" class="column-headers-background">
+            B
+          </th>
+          <th id="117478466C2" style="width: 88px" class="column-headers-background">
+            C
+          </th>
+          <th id="117478466C3" style="width: 48px" class="column-headers-background">
+            D
+          </th>
+          <th id="117478466C4" style="width: 101px" class="column-headers-background">
+            E
+          </th>
+          <th id="117478466C5" style="width: 43px" class="column-headers-background">
+            F
+          </th>
+          <th id="117478466C6" style="width: 97px" class="column-headers-background">
+            G
+          </th>
+          <th id="117478466C7" style="width: 208px" class="column-headers-background">
+            H
+          </th>
+          <th id="117478466C8" style="width: 239px" class="column-headers-background">
+            I
+          </th>
+          <th id="117478466C9" style="width: 262px" class="column-headers-background">
+            J
+          </th>
+          <th id="117478466C10" style="width: 35px" class="column-headers-background">
+            K
+          </th>
+          <th id="117478466C11" style="width: 34px" class="column-headers-background">
+            L
+          </th>
+          <th id="117478466C12" style="width: 47px" class="column-headers-background">
+            M
+          </th>
+          <th id="117478466C13" style="width: 308px" class="column-headers-background">
+            N
+          </th>
+          <th id="117478466C14" style="width: 165px" class="column-headers-background">
+            O
+          </th>
+          <th id="117478466C15" style="width: 152px" class="column-headers-background">
+            P
+          </th>
+          <th id="117478466C16" style="width: 130px" class="column-headers-background">
+            Q
+          </th>
+          <th id="117478466C17" style="width: 60px" class="column-headers-background">
+            R
+          </th>
+          <th id="117478466C18" style="width: 60px" class="column-headers-background">
+            S
+          </th>
+          <th id="117478466C19" style="width: 60px" class="column-headers-background">
+            T
+          </th>
+          <th id="117478466C20" style="width: 60px" class="column-headers-background">
+            U
+          </th>
+          <th id="117478466C21" style="width: 60px" class="column-headers-background">
+            V
+          </th>
+          <th id="117478466C22" style="width: 60px" class="column-headers-background">
+            W
+          </th>
+          <th id="117478466C23" style="width: 60px" class="column-headers-background">
+            X
+          </th>
+          <th id="117478466C24" style="width: 60px" class="column-headers-background">
+            Y
+          </th>
+          <th id="117478466C25" style="width: 60px" class="column-headers-background">
+            Z
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="height: 33px">
+          <th id="117478466R0" style="height: 33px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 33px">1</div>
+          </th>
+          <td class="s0" colspan="6">TRƯỜNG ĐẠI HỌC DUY TÂN</td>
+          <td class="s1"></td>
+          <td class="s2" colspan="9">NĂM HỌC 2022-2023</td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+        </tr>
+        <tr style="height: 38px">
+          <th id="117478466R1" style="height: 38px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 38px">2</div>
+          </th>
+          <td class="s0" colspan="6">PHÒNG ĐÀO TẠO</td>
+          <td class="s1"></td>
+          <td class="s4" colspan="9">
+            LỊCH THI<span style="
                   font-size: 14pt;
                   font-family: Times New Roman;
                   font-weight: bold;
                   color: #000000;
-                "
-              >
-                KTHP</span
-              ><span
-                style="
+                ">
+              KTHP</span><span style="
                   font-size: 14pt;
                   font-family: Times New Roman;
                   font-weight: bold;
-                "
-              >
-                HỌC KỲ II - TUẦN 45--47 (CHÍNH THỨC)</span
-              >
-            </td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-          </tr>
-          <tr style="height: 63px">
-            <th
-              id="117478466R2"
-              style="height: 63px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 63px">3</div>
-            </th>
-            <td class="s5"></td>
-            <td class="s5"></td>
-            <td class="s5"></td>
-            <td class="s5"></td>
-            <td class="s5"></td>
-            <td class="s5"></td>
-            <td class="s6"></td>
-            <td class="s7" colspan="9">
-              (TT KHẢO THÍ PHỐI HỢP VỚI CÁC ĐƠN VỊ LIÊN QUAN ĐIỀU ĐỘNG CHỦ TRÌ,
-              GIÁM SÁT, GIÁM THỊ COI THI)
-            </td>
-            <td class="s8"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-            <td class="s3"></td>
-          </tr>
-          <tr style="height: 62px">
-            <th
-              id="117478466R3"
-              style="height: 62px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 62px">4</div>
-            </th>
-            <td class="s9">STT</td>
-            <td class="s9">Thứ</td>
-            <td class="s9">Ngày thi</td>
-            <td class="s10">Giờ <br />thi</td>
-            <td class="s10">Mã ngành</td>
-            <td class="s10">Mã số</td>
-            <td class="s10">Mã môn</td>
-            <td class="s10">Môn thi</td>
-            <td class="s9">Hình thức thi</td>
-            <td class="s10">Khối thi</td>
-            <td class="s10">
-              Lần<br />
-              thi
-            </td>
-            <td class="s10">SL <br />Phòng</td>
-            <td class="s10">SL SV</td>
-            <td class="s10">Phòng thi</td>
-            <td class="s9">Địa điểm</td>
-            <td class="s10">Khoa chủ trì</td>
-            <td class="s11">Ghi chú</td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R106"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                107
-              </div>
-            </th>
-            <td class="s13">103</td>
-            <td class="s13">4</td>
-            <td class="s13">6/28/2023</td>
-            <td class="s13">13h30</td>
-            <td class="s14">MTH</td>
-            <td class="s14">103</td>
-            <td class="s14">MTH 103</td>
-            <td class="s14">Toán Cao Cấp A1</td>
-            <td class="s14">Trắc nghiệm + Tự luận, Phòng LT</td>
-            <td class="s14">MTH 103 (B-D-F-H-J-L-N-P)</td>
-            <td class="s14">1</td>
-            <td class="s14">34</td>
-            <td class="s14">739</td>
-            <td class="s14">
-              Tòa nhà E (101-205-301-304-401-402-404-405-501-504), Tòa nhà F
-              (112-201-205-211-402-404-405-501-502-503-504-505-508-509-510-511-512)
-            </td>
-            <td class="s14">Hoà Khánh Nam</td>
-            <td class="s14">MT &amp; KHTN</td>
-            <td class="s14"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R230"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                231
-              </div>
-            </th>
-            <td class="s13">227</td>
-            <td class="s13">7</td>
-            <td class="s13">7/1/2023</td>
-            <td class="s13">15h30</td>
-            <td class="s14">IS-ENG</td>
-            <td class="s14">186</td>
-            <td class="s14">IS-ENG 186</td>
-            <td class="s14">English for International School - Level 3</td>
-            <td class="s14">Nghe, trắc nghiệm + Tự luận, Phòng LT</td>
-            <td class="s14">
-              IS-ENG 186
-              (DFIS-DHIS-DIS-DJIS-DLIS-FIS-HIS-JIS-LIS-NIS-PIS-RIS-TIS-VIS-XIS-ZIS)
-            </td>
-            <td class="s14">1</td>
-            <td class="s14">26</td>
-            <td class="s14">612</td>
-            <td class="s14">
-              208-213-214-307-308-313-314-401-406-407-408-413-414-702-703-801A-802-803-901A-902-903-1001A-1002-1003-1101-1102
-            </td>
-            <td class="s14">254 Nguyễn Văn Linh</td>
-            <td class="s14">Trường ĐTQT</td>
-            <td class="s14"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R291"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                292
-              </div>
-            </th>
-            <td class="s13">288</td>
-            <td class="s13">CN</td>
-            <td class="s13">7/2/2023</td>
-            <td class="s13">15h30</td>
-            <td class="s14">CMU-CS</td>
-            <td class="s14">252</td>
-            <td class="s14">CMU-CS 252</td>
-            <td class="s14">
-              Introduction to Network &amp; Telecommunications Technology
-            </td>
-            <td class="s14">Tự luận, Phòng LT</td>
-            <td class="s14">
-              CMU-CS 252
-              (BBIS-BDIS-BIS-DIS-FIS-HIS-JIS-LIS-NIS-PIS-RIS-TIS-VIS-XIS-ZIS)
-            </td>
-            <td class="s14">1</td>
-            <td class="s14">25</td>
-            <td class="s14">596</td>
-            <td class="s14">
-              208(4)-213-214-307-308-313-314-406-407-408-413-414
-            </td>
-            <td class="s14">254 Nguyễn Văn Linh</td>
-            <td class="s14">Trường ĐTQT</td>
-            <td class="s14"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R377"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                378
-              </div>
-            </th>
-            <td class="s13">374</td>
-            <td class="s13">4</td>
-            <td class="s13">7/5/2023</td>
-            <td class="s13">15h30</td>
-            <td class="s14">IS-ENG</td>
-            <td class="s14">186</td>
-            <td class="s14">IS-ENG 186</td>
-            <td class="s14">English for International School - Level 3</td>
-            <td class="s14">Vấn đáp, Phòng LT</td>
-            <td class="s14">IS-ENG 186 (PIS-RIS-TIS-VIS-XIS-ZIS)</td>
-            <td class="s14">1</td>
-            <td class="s14">10</td>
-            <td class="s14">236</td>
-            <td class="s14">Tòa nhà E (301-304-401-402-404-405-501)</td>
-            <td class="s14">Hoà Khánh Nam</td>
-            <td class="s14">Trường ĐTQT</td>
-            <td class="s14"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R425"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                426
-              </div>
-            </th>
-            <td class="s13">422</td>
-            <td class="s13">7</td>
-            <td class="s13">7/8/2023</td>
-            <td class="s13">09h30</td>
-            <td class="s14">CMU-CS</td>
-            <td class="s14">311</td>
-            <td class="s14">CMU-CS 311</td>
-            <td class="s14">
-              Object-Oriented Programming C++ (Advanced Concepts in Computing)
-            </td>
-            <td class="s14">Trắc nghiệm + Tự luận, PM</td>
-            <td class="s14">CMU-CS 311 (BBIS-BDIS-BFIS-BIS-DIS-FIS-PIS-XIS)</td>
-            <td class="s14">1</td>
-            <td class="s14">7</td>
-            <td class="s14">274</td>
-            <td class="s14">501-502-507-508-609-610-623</td>
-            <td class="s14">K7/25 Quang Trung</td>
-            <td class="s14">Trường ĐTQT</td>
-            <td class="s14"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R528"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                529
-              </div>
-            </th>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s17"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R529"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                530
-              </div>
-            </th>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s17"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R530"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                531
-              </div>
-            </th>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s17"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R531"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                532
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s19 softmerge">
-              <div class="softmerge-inner" style="width: 121px; left: -1px">
-                Ghi chú:
-              </div>
-            </td>
-            <td class="s20"></td>
-            <td class="s21"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s17"></td>
-            <td class="s22"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R532"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                533
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s24"></td>
-            <td class="s25 softmerge">
-              <div class="softmerge-inner" style="width: 822px; left: -1px">
-                Sinh viên phải theo dõi lịch thi của mình trên website Khoa,
-                website Phòng Đào Tạo.
-              </div>
-            </td>
-            <td class="s26"></td>
-            <td class="s26"></td>
-            <td class="s26"></td>
-            <td class="s26"></td>
-            <td class="s26"></td>
-            <td class="s21"></td>
-            <td class="s27"></td>
-            <td class="s22"></td>
-            <td class="s23"></td>
-            <td class="s18"></td>
-            <td class="s16"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R533"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                534
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s24"></td>
-            <td class="s25 softmerge">
-              <div class="softmerge-inner" style="width: 375px; left: -1px">
-                Sinh viên cần hoàn thành học phí trước khi thi.
-              </div>
-            </td>
-            <td class="s26"></td>
-            <td class="s26"></td>
-            <td class="s26"></td>
-            <td class="s21"></td>
-            <td class="s21"></td>
-            <td class="s15"></td>
-            <td></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s18"></td>
-            <td class="s15"></td>
-            <td class="s23"></td>
-            <td class="s28"></td>
-            <td class="s16"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R534"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                535
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s24"></td>
-            <td class="s25 softmerge">
-              <div class="softmerge-inner" style="width: 583px; left: -1px">
-                Khi đi thi sinh viên phải mang theo thẻ sinh viên mới được vào
-                phòng thi.
-              </div>
-            </td>
-            <td class="s26"></td>
-            <td class="s26"></td>
-            <td class="s26"></td>
-            <td class="s26"></td>
-            <td class="s21"></td>
-            <td class="s21"></td>
-            <td class="s17"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s23"></td>
-            <td class="s17"></td>
-            <td class="s16"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R535"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                536
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s25 softmerge">
-              <div class="softmerge-inner" style="width: 583px; left: -1px">
-                Mọi thắc mắc sinh viên liên hệ với Khoa và Phòng Đào tạo để được
-                giải đáp.
-              </div>
-            </td>
-            <td class="s26"></td>
-            <td class="s26"></td>
-            <td class="s26"></td>
-            <td class="s29"></td>
-            <td class="s30"></td>
-            <td class="s21"></td>
-            <td class="s17"></td>
-            <td class="s22"></td>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s23"></td>
-            <td class="s31"></td>
-            <td class="s32 softmerge">
-              <div class="softmerge-inner" style="width: 332px; left: -53px">
-                Đà Nẵng, ngày tháng 06 năm 2023
-              </div>
-            </td>
-            <td class="s33"></td>
-            <td class="s34"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R536"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                537
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s24"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s23"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s17"></td>
-            <td class="s22"></td>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s23"></td>
-            <td class="s23"></td>
-            <td class="s17">PHÒNG ĐÀO TẠO</td>
-            <td class="s16"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R537"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                538
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s24"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s23"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s17"></td>
-            <td class="s22"></td>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s23"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R538"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                539
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s23"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s35"></td>
-            <td class="s22"></td>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s23"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R539"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                540
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s15"></td>
-            <td class="s36"></td>
-            <td class="s17"></td>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s15"></td>
-            <td class="s18"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s22"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R540"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                541
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s17"></td>
-            <td class="s17"></td>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s17"></td>
-            <td class="s36"></td>
-            <td class="s37"></td>
-            <td class="s17"></td>
-            <td class="s22"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s23"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R541"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                542
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s36"></td>
-            <td class="s17"></td>
-            <td class="s17"></td>
-            <td class="s15"></td>
-            <td class="s17"></td>
-            <td class="s36"></td>
-            <td class="s37"></td>
-            <td class="s17"></td>
-            <td class="s17"></td>
-            <td class="s16"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s18"></td>
-            <td class="s23"></td>
-            <td class="s17">TS. Nguyễn Phi Sơn</td>
-            <td class="s16"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R542"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                543
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s17"></td>
-            <td class="s12"></td>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s23"></td>
-            <td class="s17"></td>
-            <td class="s16"></td>
-            <td class="s12"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R543"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                544
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s15"></td>
-            <td class="s19 softmerge">
-              <div class="softmerge-inner" style="width: 235px; left: -1px">
-                PHÒNG HỘI ĐỒNG:
-              </div>
-            </td>
-            <td class="s38"></td>
-            <td class="s21"></td>
-            <td class="s39 softmerge">
-              <div class="softmerge-inner" style="width: 138px; left: -1px">
-                VĂN PHÒNG KHOA
-              </div>
-            </td>
-            <td class="s21"></td>
-            <td class="s21"></td>
-            <td class="s15"></td>
-            <td class="s17"></td>
-            <td class="s12"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td class="s12"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R544"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                545
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s17"></td>
-            <td class="s17"></td>
-            <td class="s18"></td>
-            <td class="s40 softmerge">
-              <div class="softmerge-inner" style="width: 585px; left: -1px">
-                Cơ sở 209 Phan Thanh: Phòng 402 - tầng 4 ( phòng nghỉ của giảng
-                viên)
-              </div>
-            </td>
-            <td class="s39"></td>
-            <td class="s39"></td>
-            <td class="s20"></td>
-            <td class="s27"></td>
-            <td class="s12"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td class="s12"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R545"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                546
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s17"></td>
-            <td class="s17"></td>
-            <td class="s18"></td>
-            <td class="s40 softmerge">
-              <div class="softmerge-inner" style="width: 346px; left: -1px">
-                Cơ sở K7/25 Quang Trung: Phòng 612
-              </div>
-            </td>
-            <td class="s39"></td>
-            <td class="s20"></td>
-            <td class="s20"></td>
-            <td class="s17"></td>
-            <td class="s12"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R546"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                547
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s17"></td>
-            <td class="s17"></td>
-            <td class="s18"></td>
-            <td class="s40 softmerge">
-              <div class="softmerge-inner" style="width: 346px; left: -1px">
-                Cơ sở Hòa Khánh Nam : Phòng 131- Tòa Nhà A
-              </div>
-            </td>
-            <td class="s39"></td>
-            <td class="s20"></td>
-            <td class="s20"></td>
-            <td class="s17"></td>
-            <td class="s12"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R547"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                548
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s17"></td>
-            <td class="s17"></td>
-            <td class="s18"></td>
-            <td class="s40 softmerge">
-              <div class="softmerge-inner" style="width: 346px; left: -1px">
-                Cơ sở 137 Nguyễn Văn Linh : Phòng 301
-              </div>
-            </td>
-            <td class="s39"></td>
-            <td class="s20"></td>
-            <td class="s20"></td>
-            <td class="s17"></td>
-            <td class="s12"></td>
-            <td class="s16"></td>
-            <td class="s16"></td>
-            <td class="s23"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-          <tr style="height: 20px">
-            <th
-              id="117478466R548"
-              style="height: 20px"
-              class="row-headers-background"
-            >
-              <div class="row-header-wrapper" style="line-height: 20px">
-                549
-              </div>
-            </th>
-            <td class="s18"></td>
-            <td class="s19 softmerge">
-              <div class="softmerge-inner" style="width: 313px; left: -1px">
-                Các khoa nhận đề thi tại Phòng Khảo Thí.
-              </div>
-            </td>
-            <td class="s38"></td>
-            <td class="s38"></td>
-            <td class="s26"></td>
-            <td class="s20"></td>
-            <td class="s20"></td>
-            <td class="s18"></td>
-            <td class="s18"></td>
-            <td class="s17"></td>
-            <td class="s12"></td>
-            <td class="s15"></td>
-            <td class="s15"></td>
-            <td class="s18"></td>
-            <td class="s15"></td>
-            <td class="s16"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-            <td class="s12"></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </body>
+                ">
+              HỌC KỲ II - TUẦN 45--47 (CHÍNH THỨC)</span>
+          </td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+        </tr>
+        <tr style="height: 63px">
+          <th id="117478466R2" style="height: 63px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 63px">3</div>
+          </th>
+          <td class="s5"></td>
+          <td class="s5"></td>
+          <td class="s5"></td>
+          <td class="s5"></td>
+          <td class="s5"></td>
+          <td class="s5"></td>
+          <td class="s6"></td>
+          <td class="s7" colspan="9">
+            (TT KHẢO THÍ PHỐI HỢP VỚI CÁC ĐƠN VỊ LIÊN QUAN ĐIỀU ĐỘNG CHỦ TRÌ,
+            GIÁM SÁT, GIÁM THỊ COI THI)
+          </td>
+          <td class="s8"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+          <td class="s3"></td>
+        </tr>
+        <tr style="height: 62px">
+          <th id="117478466R3" style="height: 62px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 62px">4</div>
+          </th>
+          <td class="s9">STT</td>
+          <td class="s9">Thứ</td>
+          <td class="s9">Ngày thi</td>
+          <td class="s10">Giờ <br />thi</td>
+          <td class="s10">Mã ngành</td>
+          <td class="s10">Mã số</td>
+          <td class="s10">Mã môn</td>
+          <td class="s10">Môn thi</td>
+          <td class="s9">Hình thức thi</td>
+          <td class="s10">Khối thi</td>
+          <td class="s10">
+            Lần<br />
+            thi
+          </td>
+          <td class="s10">SL <br />Phòng</td>
+          <td class="s10">SL SV</td>
+          <td class="s10">Phòng thi</td>
+          <td class="s9">Địa điểm</td>
+          <td class="s10">Khoa chủ trì</td>
+          <td class="s11">Ghi chú</td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R106" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              107
+            </div>
+          </th>
+          <td class="s13">103</td>
+          <td class="s13">4</td>
+          <td class="s13">6/28/2023</td>
+          <td class="s13">13h30</td>
+          <td class="s14">MTH</td>
+          <td class="s14">103</td>
+          <td class="s14">MTH 103</td>
+          <td class="s14">Toán Cao Cấp A1</td>
+          <td class="s14">Trắc nghiệm + Tự luận, Phòng LT</td>
+          <td class="s14">MTH 103 (B-D-F-H-J-L-N-P)</td>
+          <td class="s14">1</td>
+          <td class="s14">34</td>
+          <td class="s14">739</td>
+          <td class="s14">
+            Tòa nhà E (101-205-301-304-401-402-404-405-501-504), Tòa nhà F
+            (112-201-205-211-402-404-405-501-502-503-504-505-508-509-510-511-512)
+          </td>
+          <td class="s14">Hoà Khánh Nam</td>
+          <td class="s14">MT &amp; KHTN</td>
+          <td class="s14"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R230" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              231
+            </div>
+          </th>
+          <td class="s13">227</td>
+          <td class="s13">7</td>
+          <td class="s13">7/1/2023</td>
+          <td class="s13">15h30</td>
+          <td class="s14">IS-ENG</td>
+          <td class="s14">186</td>
+          <td class="s14">IS-ENG 186</td>
+          <td class="s14">English for International School - Level 3</td>
+          <td class="s14">Nghe, trắc nghiệm + Tự luận, Phòng LT</td>
+          <td class="s14">
+            IS-ENG 186
+            (DFIS-DHIS-DIS-DJIS-DLIS-FIS-HIS-JIS-LIS-NIS-PIS-RIS-TIS-VIS-XIS-ZIS)
+          </td>
+          <td class="s14">1</td>
+          <td class="s14">26</td>
+          <td class="s14">612</td>
+          <td class="s14">
+            208-213-214-307-308-313-314-401-406-407-408-413-414-702-703-801A-802-803-901A-902-903-1001A-1002-1003-1101-1102
+          </td>
+          <td class="s14">254 Nguyễn Văn Linh</td>
+          <td class="s14">Trường ĐTQT</td>
+          <td class="s14"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R291" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              292
+            </div>
+          </th>
+          <td class="s13">288</td>
+          <td class="s13">CN</td>
+          <td class="s13">7/2/2023</td>
+          <td class="s13">15h30</td>
+          <td class="s14">CMU-CS</td>
+          <td class="s14">252</td>
+          <td class="s14">CMU-CS 252</td>
+          <td class="s14">
+            Introduction to Network &amp; Telecommunications Technology
+          </td>
+          <td class="s14">Tự luận, Phòng LT</td>
+          <td class="s14">
+            CMU-CS 252
+            (BBIS-BDIS-BIS-DIS-FIS-HIS-JIS-LIS-NIS-PIS-RIS-TIS-VIS-XIS-ZIS)
+          </td>
+          <td class="s14">1</td>
+          <td class="s14">25</td>
+          <td class="s14">596</td>
+          <td class="s14">
+            208(4)-213-214-307-308-313-314-406-407-408-413-414
+          </td>
+          <td class="s14">254 Nguyễn Văn Linh</td>
+          <td class="s14">Trường ĐTQT</td>
+          <td class="s14"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R377" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              378
+            </div>
+          </th>
+          <td class="s13">374</td>
+          <td class="s13">4</td>
+          <td class="s13">7/5/2023</td>
+          <td class="s13">15h30</td>
+          <td class="s14">IS-ENG</td>
+          <td class="s14">186</td>
+          <td class="s14">IS-ENG 186</td>
+          <td class="s14">English for International School - Level 3</td>
+          <td class="s14">Vấn đáp, Phòng LT</td>
+          <td class="s14">IS-ENG 186 (PIS-RIS-TIS-VIS-XIS-ZIS)</td>
+          <td class="s14">1</td>
+          <td class="s14">10</td>
+          <td class="s14">236</td>
+          <td class="s14">Tòa nhà E (301-304-401-402-404-405-501)</td>
+          <td class="s14">Hoà Khánh Nam</td>
+          <td class="s14">Trường ĐTQT</td>
+          <td class="s14"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R425" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              426
+            </div>
+          </th>
+          <td class="s13">422</td>
+          <td class="s13">7</td>
+          <td class="s13">7/8/2023</td>
+          <td class="s13">09h30</td>
+          <td class="s14">CMU-CS</td>
+          <td class="s14">311</td>
+          <td class="s14">CMU-CS 311</td>
+          <td class="s14">
+            Object-Oriented Programming C++ (Advanced Concepts in Computing)
+          </td>
+          <td class="s14">Trắc nghiệm + Tự luận, PM</td>
+          <td class="s14">CMU-CS 311 (BBIS-BDIS-BFIS-BIS-DIS-FIS-PIS-XIS)</td>
+          <td class="s14">1</td>
+          <td class="s14">7</td>
+          <td class="s14">274</td>
+          <td class="s14">501-502-507-508-609-610-623</td>
+          <td class="s14">K7/25 Quang Trung</td>
+          <td class="s14">Trường ĐTQT</td>
+          <td class="s14"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R528" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              529
+            </div>
+          </th>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s17"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R529" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              530
+            </div>
+          </th>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s17"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R530" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              531
+            </div>
+          </th>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s17"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R531" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              532
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s19 softmerge">
+            <div class="softmerge-inner" style="width: 121px; left: -1px">
+              Ghi chú:
+            </div>
+          </td>
+          <td class="s20"></td>
+          <td class="s21"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s17"></td>
+          <td class="s22"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R532" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              533
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s24"></td>
+          <td class="s25 softmerge">
+            <div class="softmerge-inner" style="width: 822px; left: -1px">
+              Sinh viên phải theo dõi lịch thi của mình trên website Khoa,
+              website Phòng Đào Tạo.
+            </div>
+          </td>
+          <td class="s26"></td>
+          <td class="s26"></td>
+          <td class="s26"></td>
+          <td class="s26"></td>
+          <td class="s26"></td>
+          <td class="s21"></td>
+          <td class="s27"></td>
+          <td class="s22"></td>
+          <td class="s23"></td>
+          <td class="s18"></td>
+          <td class="s16"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R533" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              534
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s24"></td>
+          <td class="s25 softmerge">
+            <div class="softmerge-inner" style="width: 375px; left: -1px">
+              Sinh viên cần hoàn thành học phí trước khi thi.
+            </div>
+          </td>
+          <td class="s26"></td>
+          <td class="s26"></td>
+          <td class="s26"></td>
+          <td class="s21"></td>
+          <td class="s21"></td>
+          <td class="s15"></td>
+          <td></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s18"></td>
+          <td class="s15"></td>
+          <td class="s23"></td>
+          <td class="s28"></td>
+          <td class="s16"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R534" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              535
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s24"></td>
+          <td class="s25 softmerge">
+            <div class="softmerge-inner" style="width: 583px; left: -1px">
+              Khi đi thi sinh viên phải mang theo thẻ sinh viên mới được vào
+              phòng thi.
+            </div>
+          </td>
+          <td class="s26"></td>
+          <td class="s26"></td>
+          <td class="s26"></td>
+          <td class="s26"></td>
+          <td class="s21"></td>
+          <td class="s21"></td>
+          <td class="s17"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s23"></td>
+          <td class="s17"></td>
+          <td class="s16"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R535" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              536
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s25 softmerge">
+            <div class="softmerge-inner" style="width: 583px; left: -1px">
+              Mọi thắc mắc sinh viên liên hệ với Khoa và Phòng Đào tạo để được
+              giải đáp.
+            </div>
+          </td>
+          <td class="s26"></td>
+          <td class="s26"></td>
+          <td class="s26"></td>
+          <td class="s29"></td>
+          <td class="s30"></td>
+          <td class="s21"></td>
+          <td class="s17"></td>
+          <td class="s22"></td>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s23"></td>
+          <td class="s31"></td>
+          <td class="s32 softmerge">
+            <div class="softmerge-inner" style="width: 332px; left: -53px">
+              Đà Nẵng, ngày tháng 06 năm 2023
+            </div>
+          </td>
+          <td class="s33"></td>
+          <td class="s34"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R536" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              537
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s24"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s23"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s17"></td>
+          <td class="s22"></td>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s23"></td>
+          <td class="s23"></td>
+          <td class="s17">PHÒNG ĐÀO TẠO</td>
+          <td class="s16"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R537" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              538
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s24"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s23"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s17"></td>
+          <td class="s22"></td>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s23"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R538" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              539
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s23"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s35"></td>
+          <td class="s22"></td>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s23"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R539" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              540
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s15"></td>
+          <td class="s36"></td>
+          <td class="s17"></td>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s15"></td>
+          <td class="s18"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s22"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R540" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              541
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s17"></td>
+          <td class="s17"></td>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s17"></td>
+          <td class="s36"></td>
+          <td class="s37"></td>
+          <td class="s17"></td>
+          <td class="s22"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s23"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R541" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              542
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s36"></td>
+          <td class="s17"></td>
+          <td class="s17"></td>
+          <td class="s15"></td>
+          <td class="s17"></td>
+          <td class="s36"></td>
+          <td class="s37"></td>
+          <td class="s17"></td>
+          <td class="s17"></td>
+          <td class="s16"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s18"></td>
+          <td class="s23"></td>
+          <td class="s17">TS. Nguyễn Phi Sơn</td>
+          <td class="s16"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R542" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              543
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s17"></td>
+          <td class="s12"></td>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s23"></td>
+          <td class="s17"></td>
+          <td class="s16"></td>
+          <td class="s12"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R543" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              544
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s15"></td>
+          <td class="s19 softmerge">
+            <div class="softmerge-inner" style="width: 235px; left: -1px">
+              PHÒNG HỘI ĐỒNG:
+            </div>
+          </td>
+          <td class="s38"></td>
+          <td class="s21"></td>
+          <td class="s39 softmerge">
+            <div class="softmerge-inner" style="width: 138px; left: -1px">
+              VĂN PHÒNG KHOA
+            </div>
+          </td>
+          <td class="s21"></td>
+          <td class="s21"></td>
+          <td class="s15"></td>
+          <td class="s17"></td>
+          <td class="s12"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td class="s12"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R544" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              545
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s17"></td>
+          <td class="s17"></td>
+          <td class="s18"></td>
+          <td class="s40 softmerge">
+            <div class="softmerge-inner" style="width: 585px; left: -1px">
+              Cơ sở 209 Phan Thanh: Phòng 402 - tầng 4 ( phòng nghỉ của giảng
+              viên)
+            </div>
+          </td>
+          <td class="s39"></td>
+          <td class="s39"></td>
+          <td class="s20"></td>
+          <td class="s27"></td>
+          <td class="s12"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td class="s12"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R545" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              546
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s17"></td>
+          <td class="s17"></td>
+          <td class="s18"></td>
+          <td class="s40 softmerge">
+            <div class="softmerge-inner" style="width: 346px; left: -1px">
+              Cơ sở K7/25 Quang Trung: Phòng 612
+            </div>
+          </td>
+          <td class="s39"></td>
+          <td class="s20"></td>
+          <td class="s20"></td>
+          <td class="s17"></td>
+          <td class="s12"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R546" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              547
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s17"></td>
+          <td class="s17"></td>
+          <td class="s18"></td>
+          <td class="s40 softmerge">
+            <div class="softmerge-inner" style="width: 346px; left: -1px">
+              Cơ sở Hòa Khánh Nam : Phòng 131- Tòa Nhà A
+            </div>
+          </td>
+          <td class="s39"></td>
+          <td class="s20"></td>
+          <td class="s20"></td>
+          <td class="s17"></td>
+          <td class="s12"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R547" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              548
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s17"></td>
+          <td class="s17"></td>
+          <td class="s18"></td>
+          <td class="s40 softmerge">
+            <div class="softmerge-inner" style="width: 346px; left: -1px">
+              Cơ sở 137 Nguyễn Văn Linh : Phòng 301
+            </div>
+          </td>
+          <td class="s39"></td>
+          <td class="s20"></td>
+          <td class="s20"></td>
+          <td class="s17"></td>
+          <td class="s12"></td>
+          <td class="s16"></td>
+          <td class="s16"></td>
+          <td class="s23"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+        <tr style="height: 20px">
+          <th id="117478466R548" style="height: 20px" class="row-headers-background">
+            <div class="row-header-wrapper" style="line-height: 20px">
+              549
+            </div>
+          </th>
+          <td class="s18"></td>
+          <td class="s19 softmerge">
+            <div class="softmerge-inner" style="width: 313px; left: -1px">
+              Các khoa nhận đề thi tại Phòng Khảo Thí.
+            </div>
+          </td>
+          <td class="s38"></td>
+          <td class="s38"></td>
+          <td class="s26"></td>
+          <td class="s20"></td>
+          <td class="s20"></td>
+          <td class="s18"></td>
+          <td class="s18"></td>
+          <td class="s17"></td>
+          <td class="s12"></td>
+          <td class="s15"></td>
+          <td class="s15"></td>
+          <td class="s18"></td>
+          <td class="s15"></td>
+          <td class="s16"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+          <td class="s12"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
 </html>

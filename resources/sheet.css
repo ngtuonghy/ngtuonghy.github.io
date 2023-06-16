@@ -102484,6 +102484,8 @@ screen and (forced-colors:active) {
 
 /*# sourceMappingURL=waffle_k_ltr.css.map */
 .grid-container {
+  
+   margin-top: 80px;
     height: 450px;
     width: 100%;
     overflow: auto
