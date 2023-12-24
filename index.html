@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./src/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <div id="clock-container">
+          <div class="circle" style="--clr: #ff2972">
+            <div class="dots hours_dot"></div>
+            <svg>
+              <circle cx="25" cy="25" r="25"></circle>
+              <circle cx="25" cy="25" r="25" id="hours-circle"></circle>
+            </svg>
+            <div id="hours">00</div>
+          </div>
+          <div class="circle" style="--clr: #fee800">
+            <div class="dots minutes_dot"></div>
+            <svg>
+              <circle cx="25" cy="25" r="25"></circle>
+              <circle cx="25" cy="25" r="25" id="minutes-circle"></circle>
+            </svg>
+            <div id="minutes">00</div>
+          </div>
+          <div class="circle" style="--clr: #04fc43">
+            <div class="dots seconds_dot"></div>
+            <svg>
+              <circle cx="25" cy="25" r="25"></circle>
+              <circle cx="25" cy="25" r="25" id="seconds-circle"></circle>
+            </svg>
+            <div id="seconds">00</div>
+          </div>
+          <div class="ap">
+            <div id="ampm">AM</div>
+          </div>
+        </div>
+
+        <div class="date-contianer">
+          <div id="dayofWeek" class="style">Monday</div>
+          <div id="monthYear">
+            <div id="month" class="style"></div>
+            <div id="date" class="style"></div>
+            <div id="year" class="style"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 7rem;
+      "
+    >
+      <div style="overflow-x: auto">
+        <table>
+          <tr>
+            <th>Thứ</th>
+            <th>Ngày thi</th>
+            <th>Giờ thi</th>
+            <th>Mã ngành</th>
+            <th>Mã số</th>
+            <th>Mã môn</th>
+            <th>Môn thi</th>
+            <th>Hình thức thi</th>
+            <th>Khối thi</th>
+            <th>Lần</th>
+            <th>SL phòng</th>
+            <th>SL SV</th>
+            <th>Phòng thi</th>
+            <th>Địa điểm</th>
+            <th>Khoa chủ trì</th>
+            <th>Ghi chú</th>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>26/12/2023</td>
+            <td>18h00</td>
+            <td>CMU-CS</td>
+            <td>303</td>
+            <td>CMU-CS 303</td>
+            <td>Fundamentals of Computing 1</td>
+            <td>Trắc nghiệm + Tự luận, PM</td>
+            <td>CMU-CS 303 (AAIS-ACIS-AEIS-QIS-SIS-UIS-WIS-YIS)</td>
+            <td>1</td>
+            <td>7</td>
+            <td>296</td>
+            <td>301-501-502-507-508-609-610</td>
+            <td>K7/25 Quang Trung</td>
+            <td>Trường ĐTQT</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>30/12/2023</td>
+            <td>09h30</td>
+            <td>IS-ENG</td>
+            <td>236</td>
+            <td>IS-ENG 236</td>
+            <td>English for International School - Level 5</td>
+            <td>Nghe, trắc nghiệm + Tự luận, Phòng LT</td>
+            <td>
+              IS-ENG 236
+              (CCIS-CGIS-CIIS-CIS-EIS-GIS-IIS-KIS-MIS-OIS-QIS-SIS-UIS-WIS-YIS)
+            </td>
+            <td>1</td>
+            <td>23</td>
+            <td>509</td>
+            <td>
+              Tòa nhà G
+              (301-302-303-304-305-308-309-311-314-316-401-402-403-404-405-408-409-411-414-416-501-502-503)
+            </td>
+            <td>Hòa Khánh Nam</td>
+            <td>Trường ĐTQT</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>30/12/2023</td>
+            <td>18h00</td>
+            <td>CMU-SE</td>
+            <td>214</td>
+            <td>CMU-SE 214</td>
+            <td>Requirements Engineering</td>
+            <td>Trắc nghiệm + Tự luận, Phòng LT</td>
+            <td>
+              CMU-SE 214
+              (AAIS-ACIS-AEIS-AIS-CIS-EIS-GIS-IIS-KIS-MIS-OIS-QIS-SIS-UIS-WIS-YIS)
+            </td>
+            <td>1</td>
+            <td>23</td>
+            <td>561</td>
+            <td>208(3)-213-214-307-308-313-314-407-408-413-414</td>
+            <td>254 Nguyễn Văn Linh</td>
+            <td>Trường ĐTQT</td>
+          </tr>
+          <tr>
+            <td>CN</td>
+            <td>31/12/2023</td>
+            <td>13h30</td>
+            <td>MTH</td>
+            <td>104</td>
+            <td>MTH 104</td>
+            <td>Toán Cao Cấp A2</td>
+            <td>Trắc nghiệm + Tự luận, Phòng LT</td>
+            <td>MTH 104 (A-C-E-G-I-K-M)</td>
+            <td>1</td>
+            <td>23</td>
+            <td>496</td>
+            <td>
+              Tòa nhà F
+              (108-112-201-205-210-211-404-405-501-502-503-504-505-508-509-510),
+              Tòa nhà G (503-504-508-509-511-514)
+            </td>
+            <td>Hòa Khánh Nam</td>
+            <td>MT & KHTN</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>05/01/2024</td>
+            <td>13h30</td>
+            <td>IS-ENG</td>
+            <td>236</td>
+            <td>IS-ENG 236</td>
+            <td>English for International School - Level 5</td>
+            <td>Vấn đáp, Phòng LT</td>
+            <td>IS-ENG 236 (CIIS-EIS-GIS-IIS-KIS-MIS-UIS-WIS)</td>
+            <td>1</td>
+            <td>12</td>
+            <td>283</td>
+            <td>314-801A-801B-802-803-901A-901B-902-903-1001B-1002</td>
+            <td>254 Nguyễn Văn Linh</td>
+            <td>Trường ĐTQT</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>
+  <script src="./src/script/clock.js"></script>
+</html>
