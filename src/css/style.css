@@ -14,26 +14,16 @@ body {
 }
 
 header {
-  
   display: flex;
   justify-content: center;
 }
 
 .header-container {
-
   display: flex;
   gap: 1rem;
   align-items: center;
   flex-direction: column;
-}
-
-@media screen and (min-width: 576px) {
-  .header-container {
-    display: flex;
-    gap: 5rem;
-    align-items: center;
-    flex-direction: row;
-  }
+  position: relative;
 }
 
 #clock-container {
@@ -140,4 +130,29 @@ th {
 
 tr:nth-child(even) {
   background-color: #ff0063;
+}
+.contianer-writer {
+  display: flex;
+  position: relative;
+  /* top: 0; */
+}
+.contianer-writer h1 {
+  color: white;
+  font-size: 0.7em;
+}
+.contianer-writer h1 span {
+  color: red;
+}
+@media screen and (min-width: 576px) {
+  .header-container {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    flex-direction: row;
+  }
+  .contianer-writer {
+    display: flex;
+    position: absolute;
+    /* top: 0; */
+  }
 }

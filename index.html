@@ -48,8 +48,14 @@
             <div id="year" class="style"></div>
           </div>
         </div>
+        <div>
+          <div class="contianer-writer">
+            <h1>by <span class="auto-type"></span></h1>
+          </div>
+        </div>
       </div>
     </header>
+
     <main
       style="
         display: flex;
@@ -183,4 +189,13 @@
     </main>
   </body>
   <script src="./src/script/clock.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: ["harvous", "ngtuonghy"],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true,
+    });
+  </script>
 </html>
