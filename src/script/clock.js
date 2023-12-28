@@ -85,7 +85,8 @@ function date() {
   let day = document.getElementById("date");
   let month = document.getElementById("month");
   let year = document.getElementById("year");
-  dayOWeek.style.color = color;
+  dayOWeek.style.color = "#fff";
+  dayOWeek.style.textShadow = `2px 2px ${color}`;
   dayOWeek.innerHTML = dayName;
   day.innerHTML = d;
   month.innerHTML = monthName;
